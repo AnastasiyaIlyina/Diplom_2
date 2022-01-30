@@ -1,13 +1,9 @@
 package practicum.dto;
 
-public class CreateUserRegistrarRequest {
-    private final String email;
-    private final String password;
-    private final String name;
+public class LogoutRequest {
+    private final String token;
 
-    public CreateUserRegistrarRequest(String email, String password, String name) {
-        this.email = email;
-        this.password = password;
-        this.name =name;
+    public LogoutRequest(String token) {
+        this.token = token;
     };
 }

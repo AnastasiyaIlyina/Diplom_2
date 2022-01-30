@@ -1,9 +1,9 @@
 package practicum.dto;
 
-public class UpdateEmailRequest {
-    private final String email;
+public class UpdateNameRequest {
+    private final String name;
 
-    public UpdateEmailRequest(String email) {
-        this.email = email;
+    public UpdateNameRequest(String name) {
+        this.name = name;
     };
 }

@@ -1,9 +1,9 @@
 package practicum.dto;
 
-public class LogoutRequest {
-    private final String token;
+public class UpdateEmailRequest {
+    private final String email;
 
-    public LogoutRequest(String token) {
-        this.token = token;
+    public UpdateEmailRequest(String email) {
+        this.email = email;
     };
 }

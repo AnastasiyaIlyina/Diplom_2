@@ -1,4 +1,4 @@
-package practicum;
+package practicum.utils;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.http.ContentType;
